@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title class="main__title">Uzum Market-Internet do'koni</title>
+    <link
+      class="title__img"
+      rel="icon"
+      href="https://asset.brandfetch.io/idnwA0mXQD/id2XZWfaqy.jpeg?updated=1712148393106"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section class="top__header">
+      <div class="container">
+        <div class="top__header_block">
+          <div class="location__box">
+            <p class="location__text">
+              Shahar: <a class="location__text_link header__link"> Toshkent </a>
+            </p>
+            <a class="location__punkt header__link"> Topshirish punktlari </a>
+          </div>
+          <div class="top__header_link_bar">
+            <button
+              class="header__sell header__link"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasRight"
+              aria-controls="offcanvasRight"
+            >
+              Uzumda soting
+            </button>
+            <a href="./admin.html"> Admin-kirish </a>
+            <a class="header__coment header__link"> Savol-javoblar </a>
+            <a class="header__books header__link"> Buyurtmalarim </a>
+            <button class="content__language header__link">O'zbekcha</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <header class="header">
+      <div class="container">
+        <div class="header__box">
+          <div class="logo__box">
+           <a href="./index.html"> <img src="./img/logo.svg" alt="logo" /></a>
+            <button class="header__katalog_btn">
+              <img class="katalog__img" src="./img/katalog.svg" alt="img" />
+            </button>
+          </div>
+          <div class="header__form">
+            <input
+              class="header__input"
+              id="search-input"
+              type="text"
+              placeholder="Maxsulotlar va turkumlarni izlash"
+            />
+            <button class="header__search_btn"></button>
+          </div>
+          <div class="header__btn_box">
+            <button class="logIn__btn header__btn">
+              <img src="./img/logIn.svg" alt="img" />
+              <p class="header__btn_text">Kirish</p>
+            </button>
+
+            <a
+              class="favorite__list header__btn"
+              href="./favorite.html"
+              id="view-favorites"
+              ><img src="./img/favorite.svg" alt="img" />
+              <p class="header__btn_text">Saralangan</p></a
+            >
+
+            <button class="shop__btn header__btn">
+              <img src="./img/shop.svg" alt="img" />
+              <p class="header__btn_text">Savat</p>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="bottom__header container">
+      <img class="img__header_bottom" src="img/div.image@2x.png" alt="rasim" />
+      <p class="big-p">Muddatli to'lov</p>
+      <p class="big-p">Elektronika</p>
+      <p class="big-p">Maishiy texnika</p>
+      <p class="big-p">Kiyim</p>
+      <p class="big-p">Poyabzallar</p>
+      <p class="big-p">Aksessuarlar</p>
+      <p class="big-p">Goʻzallik va parvarish</p>
+      <p class="big-p">Salomatlik</p>
+      <p class="big-p">Uy-roʻzgʻor buyumlari</p>
+      <p class="big-p">Qurilish va taʼmirlash</p>
+      <p class="big-p">Qurilish va taʼmirlash</p>
+      <p class="big-p">Yana</p>
+    </section>
+    <div class="container">
+      <div
+        class="main__content container"
+        style="display: flex; gap: 120px; margin-top: 70px;"
+      >
+        <template id="templete">
+          <div class="main__box">
+            <img  src="" alt="" id="main-img" />
+          </div>
+          <div class="main__content_box">
+            <div class="main__star_box">
+              <div class="main__star_block">
+                <p class="star__text">
+                  <button class="star__btn"></button>
+                  4.9(64 baxo)
+                </p>
+                <p class="main__star_commit"><span class="main__star_span_commit">14500</span> ta buyurtma</p>
+              </div>
+                <p class="heart__text" style="display: flex; gap: 10px;"><img  src="./img/liked-heart.svg" alt="btn" /> istaklarda</p>
+            </div>
+            <h1 class="main__title">Hojatxona qog'ozi Esty 2 qatlamli, 8 dona</h1>
+            <p class="seller__text">
+              Sotuvchi:
+              <a class="seller__link" href=""> The Procter & Gamble Company</a>
+            </p>
+            <hr />
+            <p class="miqdor__text">Miqdor:</p>
+            <div class="miqdor__box">
+              <div class="miqdor__number_box">
+                <button class="minus__button">-</button>
+                <p class="miqdor__number">1</p>
+                <button class="plus__button">+</button>
+              </div>
+              <p class="text__product_quantity">
+                Sotuvda <span class="span__product_quantity">225</span> dona bor
+              </p>
+            </div>
+            <p class="main__product_price_text">Narx:</p>
+            <h2 class="main__producct_text">45 000 so'm</h2>
+            <button class="main__product_monthly_btn">
+              <div class="main__product_monthly_price_box">
+                <p class="main__product_monthly_price">
+                  Oyiga
+                  <span class="main__product_monthly_price_number">2600</span>
+                  so'mdan
+                </p>
+                <p class="main__product_text">muddatli to'lov</p>
+              </div>
+              <p class="monthly__price_btn_simple">></p>
+            </button>
+            <div class="main__product_add">
+              <button class="add__product_btn">Savatga qoʻshish</button>
+              <button class="buy__product_btn">
+                Tugmani 1 bosishda xarid qilish
+              </button>
+            </div>
+            <ul class="payment__method_list">
+              <li class="payment__method_item">
+                <h4 class="payment__method_title">Tezkor yetkazish 1 kundan boshlab</h4>
+                <p class="payment__method_text">Uzum buyurtmalarni topshirish punktida yoki kuryer orqali</p>
+              </li><hr>
+              <li class="payment__method_item">
+                <h4 class="payment__method_title">Qulay usulda xavfsiz toʻlov</h4>
+                <p class="payment__method_text">Karta orqali, naqd pulda yoki boʻlib toʻlang</p>
+                <ul class="payment__method_cards">
+                  <li><img src="./img/uzum-bank-icon.svg" alt=""></li>
+                  <li><img src="./img/uzum-nasiya-icon.svg" alt=""></li>
+                  <li><img src="./img/uzcard-icon.svg" alt=""></li>
+                  <li><img src="./img/humo-card-icon.svg" alt=""></li>
+                  <li><img src="./img/visa-icon.svg" alt=""></li>
+                  <li><img src="./img/mastercard-icon.svg" alt=""></li>
+                  <li><img src="./img/naqt-pul-icon.svg" alt=""></li>
+                </ul>
+              </li><hr>
+              <li class="payment__method_item">
+                <h4 class="payment__method_title">Tezkor yetkazish 1 kundan boshlab</h4>
+                <p class="payment__method_text">Tovarlarni 10 kun ichida qabul qilamiz va darhol pulini qaytaramiz</p>
+              </li>
+            </ul>
+            <div class="payment__add_box">
+              <img src="./img/payment-add.svg" alt="">
+              <p class="payment__add_text">Bu haftada <span class="payment-add_span">274</span> sotib oldi</p>
+            </div>
+          </div>
+        </template>
+      </div>
+    </div>
+
+    <script type="module" src="./js/single.js"></script>    
+  </body>
+</html>
