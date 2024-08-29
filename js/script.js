@@ -8,7 +8,7 @@ const elLessProductsBtn = findElement("#less-btn");
 const elSearchInput = findElement("#search-input");
 
 let pageCount = 1;
-const perPage = 5;
+const perPage = 6;
 let filteredProducts = [...products]; 
 
 
