@@ -60,12 +60,15 @@
             </button>
           </div>
           <div class="header__form">
-            <input
-              class="header__input"
-              id="headerInput"
-              type="text"
-              placeholder="Maxsulotlar va turkumlarni izlash"
-            />
+            <div class="header__input-wrapper">
+              <input
+                class="header__input"
+                id="search-input"
+                type="text"
+                placeholder="Maxsulotlar va turkumlarni izlash"
+              />
+              <span class="header__search-icon"></span>
+            </div>
             <button class="header__search_btn"></button>
           </div>
           <div class="header__btn_box">
@@ -95,7 +98,7 @@
     <button id="drawer__button" class="drawer__btn">Jo'natish</button>
   </div>
 </div>
-    <section class="list__content">
+    <section class="list__content" style="padding: 0;">
       <div class="container list__block">
         <template id="template">
           <div class="list__box">
@@ -142,6 +145,38 @@
         </div>
       </div>
     </section>
+    <div class="container bottom__nav">
+      <div class="header__btn_box2">
+
+        <a class="bosh__sahifa header__btn" href="./index.html"
+          ><img src="./img/bosh-sahifa.svg" alt="" />
+          <p class="header__btn_text">Bosh sahifa</p></a
+        >
+
+        <button class="logIn__btn header__btn">
+          <img src="./img/logIn.svg" alt="img" />
+          <p class="header__btn_text">Katalog</p>
+        </button>
+
+        <button class="shop__btn header__btn">
+          <img src="./img/shop.svg" alt="img" />
+          <p class="header__btn_text">Savat</p>
+        </button>
+
+        <a
+          class="favorite__list header__btn"
+          href="./favorite.html"
+          id="view-favorites"
+          ><img src="./img/favorite.svg" alt="img" />
+          <p class="header__btn_text">Saralangan</p></a
+        >
+        <a class="logIn__btn header__btn" href="./admin.html">
+          <img src="./img/logIn.svg" alt="img" />
+          <p class="header__btn_text">Admin</p>
+        </a>
+        
+      </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script type="module" src="./js/admin.js"></script>
   </body>
